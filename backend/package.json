@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@grandtheftauto/medium-common2": "^1.0.0",
+    "@grandtheftauto/medium-common3": "^1.0.0",
+    "@prisma/client": "^5.15.0",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.6",
+    "prisma": "^5.15.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
+  }
+}
