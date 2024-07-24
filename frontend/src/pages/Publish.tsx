@@ -41,7 +41,7 @@ export const Publish = () => {
                   },
                 }
               );
-
+              console.log(response.data.id);
               navigate(`/blog/${response.data.id}`);
             }}
             type="submit"
